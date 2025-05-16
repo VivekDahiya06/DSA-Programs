@@ -22,12 +22,12 @@
  * - Used in applications like autocomplete, dictionary lookup, and solving problems via "binary search on answer"
  */
 package DSA_Programs.Searching;
-
 import java.util.Scanner;
 
 public class Binary_Search {
 
-    public void search(int[] array, int target) {
+
+    private void search(int[] array, int target) {
         int start = 0;
         int end = array.length - 1;
 
@@ -44,6 +44,7 @@ public class Binary_Search {
         }
         System.out.println("Element not found");
     }
+
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -26,7 +26,8 @@ import java.util.Scanner;
 
 public class Linear_Search {
 
-    public void search(int[] array, int target){
+
+    private void search(int[] array, int target){
         for (int i=0; i<array.length; i++) {
             if (array[i] == target) {
                 System.out.printf("Element: %d\nIndex: %d",array[i],i);
@@ -35,6 +36,8 @@ public class Linear_Search {
         }
         System.out.println("Element not found !!");
     }
+
+
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
