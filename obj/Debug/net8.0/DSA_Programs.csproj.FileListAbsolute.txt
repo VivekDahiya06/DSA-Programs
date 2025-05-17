@@ -1,0 +1,14 @@
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.AssemblyInfoInputs.cache
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.AssemblyInfo.cs
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.csproj.CoreCompileInputs.cache
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\bin\Debug\net8.0\DSA_Programs.exe
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\bin\Debug\net8.0\DSA_Programs.deps.json
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\bin\Debug\net8.0\DSA_Programs.runtimeconfig.json
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\bin\Debug\net8.0\DSA_Programs.dll
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\bin\Debug\net8.0\DSA_Programs.pdb
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.dll
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\refint\DSA_Programs.dll
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.pdb
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\DSA_Programs.genruntimeconfig.cache
+C:\Users\Vivek Dahiya\source\repos\DSA_Programs\DSA_Programs\obj\Debug\net8.0\ref\DSA_Programs.dll
