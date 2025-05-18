@@ -1,4 +1,4 @@
-package DSA_Programs;
+package DSA_Programs.Data_Structures.Stack;
 import java.util.Scanner;
 import java.util.Stack;
 public class Stacks {

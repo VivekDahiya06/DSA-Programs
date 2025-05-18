@@ -23,7 +23,7 @@
  * - Useful for educational purposes and small datasets
  * - Not suitable for large datasets due to poor time complexity
  */
-package DSA_Programs.Sorting;
+package DSA_Programs.Algorithms.Sorting;
 import java.util.Scanner;
 
 public class Bubble_Sort {

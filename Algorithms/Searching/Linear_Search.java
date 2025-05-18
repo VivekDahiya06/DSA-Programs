@@ -21,7 +21,7 @@
  * - Useful when Array is unsorted and no indexing mechanism is available
  */
 
-package DSA_Programs.Searching;
+package DSA_Programs.Algorithms.Searching;
 import java.util.Scanner;
 
 public class Linear_Search {

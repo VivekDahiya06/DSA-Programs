@@ -21,7 +21,7 @@
  * - Efficient search in large sorted datasets
  * - Used in applications like autocomplete, dictionary lookup, and solving problems via "binary search on answer"
  */
-package DSA_Programs.Searching;
+package DSA_Programs.Algorithms.Searching;
 import java.util.Scanner;
 
 public class Binary_Search {

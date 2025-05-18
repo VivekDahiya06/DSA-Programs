@@ -1,4 +1,4 @@
-package DSA_Programs.Sorting;
+package DSA_Programs.Algorithms.Sorting;
 import java.util.Scanner;
 
 public class Heap_Sort {

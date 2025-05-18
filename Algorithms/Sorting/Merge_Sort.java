@@ -1,20 +1,20 @@
-package DSA_Programs.Sorting;
+package DSA_Programs.Algorithms.Sorting;
 import java.util.Scanner;
 
-public class Quick_Sort {
+public class Merge_Sort {
 
 
-    private void sort(int[] array) {
-        System.out.println("During Sorting :");
-        int size = array.length;
-        int start = 0;
-        int end = size-1;
-        int pivot = array[end];
-        for(int i=start; i<end; i++){
-            if(array[i]<pivot){
-                swapElements(array, i, pivot);
-            }
+    private void sortArray(int[] array, int start, int end) {
+        if (start < end) {
+            int mid = (start+end)/2;
+            sortArray(array,start, mid);
+            sortArray(array,mid+1,end);
+            mergeArray(array);
         }
+    }
+
+    private void mergeArray(int[] array){
+
     }
 
 
@@ -25,14 +25,6 @@ public class Quick_Sort {
         }
         System.out.println("]");
     }
-
-
-    private void swapElements(int[] array, int i, int pivot){
-        int temp = array[i];
-        array[i] = pivot;
-        pivot = temp;
-    }
-
 
 
     public static void main(String[] args) {
@@ -47,15 +39,15 @@ public class Quick_Sort {
         }
         scan.close();
 
-        Quick_Sort quick = new Quick_Sort();
+        Merge_Sort merge = new Merge_Sort();
         System.out.println("Before Sorting :");
-        quick.printArray(array);
+        merge.printArray(array);
         System.out.println();
 
-        quick.sort(array);
+        merge.sortArray(array,0,array.length-1);
         System.out.println();
 
         System.out.println("After Sorting :");
-        quick.printArray(array);
+        merge.printArray(array);
     }
 }

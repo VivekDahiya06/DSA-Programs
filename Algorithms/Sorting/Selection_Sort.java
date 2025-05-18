@@ -23,7 +23,7 @@
  * - Suitable for small datasets or when memory is extremely limited
  * - Useful when the number of swaps is important, as it performs at most (n - 1) swaps
  */
-package DSA_Programs.Sorting;
+package DSA_Programs.Algorithms.Sorting;
 import java.util.Scanner;
 
 public class Selection_Sort {

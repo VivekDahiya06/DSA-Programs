@@ -24,7 +24,7 @@
  * - Good for situations where data is nearly sorted
  * - Commonly used in hybrid sorting algorithms (like Timsort)
  */
-package DSA_Programs.Sorting;
+package DSA_Programs.Algorithms.Sorting;
 import java.util.Scanner;
 
 public class Insertion_Sort {
