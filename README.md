@@ -1,4 +1,4 @@
-# DSA-Program (Java Branch)
+# DSA-Programs (Java Branch)
 
 This repository contains implementations of essential **Data Structures** and **Algorithms** written in **Java**. It is organized by topics and is aimed at helping students and developers prepare for technical interviews, coding competitions, or strengthen their understanding of core DSA concepts using the Java programming language.
 
