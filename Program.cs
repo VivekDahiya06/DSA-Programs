@@ -1,6 +1,4 @@
-﻿
-
-using DSA_Programs.Searching;
+﻿using DSA_Programs.Searching;
 using DSA_Programs.Sorting;
 
 namespace DSA_Programs
