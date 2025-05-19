@@ -25,10 +25,10 @@
  */
 
 package DSA_Programs.Algorithms.Sorting;
-
 import java.util.Scanner;
 
 public class Merge_Sort {
+
 
     /**
      * Recursive method that divides the array into subarrays,
@@ -50,6 +50,7 @@ public class Merge_Sort {
             mergeArray(array, start, mid, end);
         }
     }
+
 
     /**
      * Merges two sorted subarrays into a single sorted array.
@@ -100,6 +101,7 @@ public class Merge_Sort {
         }
     }
 
+
     /**
      * Utility method to print the array.
      */
@@ -110,6 +112,7 @@ public class Merge_Sort {
         }
         System.out.println("]");
     }
+
 
     /**
      * Main method to execute Merge Sort with user input.
