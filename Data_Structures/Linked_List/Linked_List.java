@@ -61,14 +61,14 @@ public class Linked_List<T> {
     }
 
     public static void main(String[] args) {
-        Linked_List list = new Linked_List();
+        Linked_List<Integer> list = new Linked_List<>();
         list.add(1);
         list.add(5);
         list.add(6);
         list.add(9);
         System.out.println("Before Deletion : ");
         list.printList();
-        list.delete(2);
+        list.delete(9);
         System.out.println("After Deletion : ");
         list.printList();
     }
