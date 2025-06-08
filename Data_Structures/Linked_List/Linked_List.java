@@ -1,6 +1,7 @@
 package DSA_Programs.Data_Structures.Linked_List;
 
 
+// Node Class that represents each node in our linked list.
 class Node<T> {
     T data;
     Node<T> next;  // Self-Referential Field
@@ -11,6 +12,8 @@ class Node<T> {
     }
 }
 
+
+// Actual LinkedList that is using Node class
 public class Linked_List<T> {
     Node<T> head = null;
 
@@ -60,6 +63,8 @@ public class Linked_List<T> {
         System.out.println("]");
     }
 
+
+    // Main method that is using this LinkedList Data Structure.
     public static void main(String[] args) {
         Linked_List<Integer> list = new Linked_List<>();
         list.add(1);
