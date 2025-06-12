@@ -1,4 +1,4 @@
-package DSA_Programs.Data_Structures.Linked_List;
+package DSA_Programs.Data_Structures.Linked_List.Singly_Linked_List;
 
 
 // Node Class that represents each node in our linked list.
@@ -14,10 +14,10 @@ class Node<T> {
 
 
 // Actual LinkedList that is using Node class
-public class Linked_List<T> {
+class Linked_List<T> {
     Node<T> head = null;
 
-    public void add(T data) {
+    private void add(T data) {
         Node<T> newNode = new Node<>(data);
         Node<T> currentNode = head;
         if (head == null)
@@ -30,13 +30,13 @@ public class Linked_List<T> {
     }
 
 
-    public void addAtStart(T data){
+    private void addAtStart(T data){
         Node<T> newNode = new Node<>(data);
         newNode.next = head;
         head = newNode;
     }
 
-    public void delete(T data) {
+    private void delete(T data) {
         Node<T> currentNode = head;
 
         if(currentNode.data == data){
@@ -53,7 +53,7 @@ public class Linked_List<T> {
 
     }
 
-    public void printList() {
+    private void printList() {
         Node<T> currentNode = head;
         System.out.print("[ ");
         while (currentNode != null) {
